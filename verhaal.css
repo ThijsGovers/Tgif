@@ -1,0 +1,84 @@
+*{
+  background: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: arial;
+}
+
+.logo{
+  align-items: center;
+}
+
+.logo img{
+  height: 150px;
+  width: auto;
+  margin-top: 4px;
+  align-items: center;
+  left: 40%;
+  position: absolute;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 180px 80px;
+  grid-gap: 10px;
+  z-index: 1;
+}
+
+.back{
+  position: relative;
+  grid-column: span 1;
+  grid-row: 2/3;
+}
+
+.back a{
+  font-size: 40px;
+  color: white;
+  background-color: #222;
+  text-decoration: none;
+  padding: 20px 50px;
+  border-radius: 50px;
+  border-bottom: solid;
+  border-right: solid;
+  margin: 50px 100px;
+}
+
+.titel{
+  position: relative;
+  grid-column: 4/10;
+  grid-row: 2/3;
+}
+
+.titeltext{
+  font-size: 30px;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 50px;
+  transform: translateY(-50%);
+  color: white;
+  margin-top: 15px;
+  background-color: #222;
+  border-color: white;
+  border-style: solid;
+}
+
+.text{
+  position: relative;
+  grid-column: 2/12;
+  grid-row: 3/5;
+  font-size: 20px;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 50px;
+  background-color: #222;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+}
+
+p{
+  background-color: #222;
+  margin: 10px 0px;
+}
